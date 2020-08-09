@@ -1,3 +1,0 @@
-imbalanced-learn
-numpy
-pandas

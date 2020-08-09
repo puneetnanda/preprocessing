@@ -4,9 +4,9 @@ from imblearn.over_sampling import RandomOverSampler, SMOTE
 from imblearn.under_sampling import RandomUnderSampler
 
 
-def remove_imbalance(self, data, target, threshold=10.0, oversample=True, smote=False):
+def fix_imbalance(self, data, target, threshold=10.0, oversample=True, smote=False):
     """
-    Method Name: remove_imbalance
+    Method Name: fix_imbalance
     Description: This method will be used to handle unbalanced datasets(rare classes) through oversampling/ undersampling
                  techniques
     Input Description: data: the input dataframe with target column.
@@ -16,7 +16,7 @@ def remove_imbalance(self, data, target, threshold=10.0, oversample=True, smote=
     On Failure: Raise Exception
 
     Written By: Punit Nanda
-    Version: 1.1
+    Version: 1.2
     Revisions: None
 
     """
